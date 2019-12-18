@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45960" started-at="2019-12-13T04:12:28Z" finished-at="2019-12-13T04:13:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45960" started-at="2019-12-13T04:12:28Z" finished-at="2019-12-13T04:13:14Z">
+      <class name="com.tm.TestCases.TestCase_LoginPage">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.tm.TestCases.TestCase_LoginPage@68c4039c]" name="setupReport" is-config="true" duration-ms="296" started-at="2019-12-13T09:42:27Z" finished-at="2019-12-13T09:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.tm.TestCases.TestCase_LoginPage@68c4039c]" name="launchBrowser" is-config="true" duration-ms="19840" started-at="2019-12-13T09:42:28Z" finished-at="2019-12-13T09:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tm.TestCases.TestCase_LoginPage.TC_Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TC_Login()[pri:0, instance:com.tm.TestCases.TestCase_LoginPage@68c4039c]" name="TC_Login" duration-ms="21693" started-at="2019-12-13T09:42:47Z" finished-at="2019-12-13T09:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tm.TestCases.TestCase_LoginPage@68c4039c]" name="closeBrowser" is-config="true" duration-ms="4372" started-at="2019-12-13T09:43:09Z" finished-at="2019-12-13T09:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="toEnd()[pri:0, instance:com.tm.TestCases.TestCase_LoginPage@68c4039c]" name="toEnd" is-config="true" duration-ms="16827" started-at="2019-12-13T09:43:14Z" finished-at="2019-12-13T09:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toEnd -->
+      </class> <!-- com.tm.TestCases.TestCase_LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
